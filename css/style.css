@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+h2 {
+  margin : 20px 0 20px 0;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+.box {
+  height: 50px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 2px;
+  min-width: 50px;
+  flex: 1;
+}
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 85%;
+  margin: 0 auto;
+}
+.clear {
+  clear: both;
+}
